@@ -1,0 +1,9 @@
+{
+	"name": "adfdevnestleprojectus",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "48e34779-344b-4a69-b265-839194917f5a",
+		"tenantId": "ef28180a-48a9-4bcb-bb6f-fd3a206ff896"
+	}
+}

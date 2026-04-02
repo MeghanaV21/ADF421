@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_ADLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-KOHSDFK\\SQLEXPRESS",
+			"database": "Master",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Meghana Varala",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlMDQ2OGU3ZC03ZThhLTRhYzYtOGE1Mi1jOWM5N2JiODA5ZmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-Hosted-integrationruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

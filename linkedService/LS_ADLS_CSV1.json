@@ -1,0 +1,16 @@
+{
+	"name": "LS_ADLS_CSV1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsdevnestleprojectus01.dfs.core.windows.net/",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5MDk2OTUwYi02YzJiLTQ4NzAtYWI0ZS1kM2Q5YTcwMzlmNGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-Hosted-integrationruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Validation_activity_CSV",
+	"properties": {
+		"activities": [
+			{
+				"name": "Files Exist or Not",
+				"type": "Validation",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "DelimitedText1",
+						"type": "DatasetReference"
+					},
+					"timeout": "0.12:00:00",
+					"sleep": 10
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-03-11T14:05:00Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
