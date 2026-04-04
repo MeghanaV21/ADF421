@@ -1,0 +1,9 @@
+{
+	"name": "ADFMigrationProject04",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "27dddb2d-7ad2-407e-9f5e-e0c3db0d161d",
+		"tenantId": "311f82b8-ae27-492b-8b15-09739ef03ae9"
+	}
+}
